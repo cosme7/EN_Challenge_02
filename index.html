@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flavo</title>
+  </head>
+  <body>
+    <header>
+
+      <section class="h-container">
+        <div class="h-wrapper">
+          <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+          <label class="nav-toggle-label" for="nav-toggle">
+            <span class="nav-toggle-span"></span>
+          </label>
+          <p class="meme-paragraph">curiosity</p>
+          <h1>flavo</h1>
+          <a href="#">
+            <img src="assets/header_01.png" alt="#" />
+          </a>
+        </div>
+      </section>
+
+    </header>
+    <main>
+
+      <section class="m-container">
+        <div class="img-carrosel">
+          <img src="assets/main_01.png" alt="#" />
+          <img src="assets/main_02.png" alt="#" />
+        </div>
+
+        <div class="main-txt-wrapper">
+          <h2>Passion</h2>
+          <h2>$15</h2>
+          <h3>What's Inside</h3>
+          <p>Chili, oregano, safra, paprika.</p>
+          <h3>Why we love it</h3>
+          <p>This one will add a little savoury
+            flavour to any food and turn any
+            meal to a culinary masterpiece.
+          </p>
+        </div>
+
+        <div class="main-checkbox">
+          <div class="checkbox-wrapper">
+            <input class="checkbox-circle" type="checkbox" id="circle-black"/>
+            <label class="checkbox-label" for="circle-black"></label>
+            <p>BAG (75g)</p>
+          </div>
+          <div class="checkbox-wrapper">
+            <input class="checkbox-circle" type="checkbox" id="black-circle"/>
+            <label class="checkbox-label" for="black-circle"></label>
+            <p>JAR (150g)</p>
+          </div>
+        </div>
+
+        <div class="btn-wrapper">
+          <button class="btn-remove" onclick="remove()">-</button>
+          <p class="btn-paragraph">1</p>
+          <button class="btn-add" onclick="add()">+</button>
+        </div>
+
+        <button class="btn-cart">Add to Cart</button>
+      </section>
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
